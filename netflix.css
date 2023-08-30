@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+.top-header{
+    height: 80vh;
+    background-image: url(netflix_imgs/background_image_netflix.jpg);
+}
+
+.container{
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.language-picker{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 28px;
+    padding-right: 15px;
+    border: 1px solid #535251;
+    border-radius: 4px;
+}
+
+.btn{
+    background-color: #E50815;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.dropdown_container{
+    color: white;
+    position: relative;
+}
+
+.language{
+    left: 4px;
+    font-size: 20px;
+}
+
+.language , .drop-down{
+    position: absolute;
+    top: 2px;
+}
+
+.drop-down{
+    right: -4px;
+    
+}
+
+.navbar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-half{
+    display: flex;
+    gap: 40px;
+}
+
+.content{
+    color: white;
+    width: 60%;
+    margin-left: 320px;
+    margin-top: 120px;
+    padding-top: 10px;
+    align-items: center;
+
+}
+
+.container h1{
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.container p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.email-container{
+    display: flex;
+    gap: 20px;
+    height: 50px;
+    width: 70%;
+    margin-left: 50px;
+}
+
+.email-container input{
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid #535251;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.down{
+    display: flex;
+    width: 110px;
+    height: 48px;
+    align-items: center;
+    font-size: 14px;
+}
+
+.down span{
+    font-size: 18px;
+}
+
+.body-section{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* .left-items{
+    color: white;
+
+} */
+
+.right-items,h1, .left-items,h1{
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.right-items,p ,.left-items,p{
+    font-size: 20px;
+}
+
+
+
+.right-items video{
+    position: absolute;
+    left: 80px;
+    top: 10%;
+    z-index: -1;
+}
+
+.top-header ,.body-section{
+    border-bottom: solid 5px #535251;
+}
+
+.faq-container{
+    background-color: black;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.faq-container h1{
+    font-weight: bold;
+}
+
+.faq{
+    display: flex;
+    align-self: stretch;
+    padding: 20px;
+    justify-content: center;
+    background-color: #2D2D2D;
+    margin-right: 22px;
+    border-radius: 5px;
+   
+}
+
+.faq:hover{
+    background-color: #535251;
+    transition-duration: 0.5s;
+}
+
+.faq p{
+    font-size: 24px;
+    padding-right: 80%;
+}
+
+
+
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #ffffffb3;
+    background-color: black;
+    
+}
+
+.footer h2{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+footer .row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ftr_col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    float: left;
+    margin: 0 10%;
+}
+.col2{
+    margin: 0 10%;
+}
+
+.footer .ftr_col a{
+    display: block;
+    color: #ffffffb3;
+    font-size: 14px;
+    margin-bottom: 10px;
+
+}
+
+.footer h5{
+    color: #ffffffb3;
+    padding-top: 20px;
+    padding-left: 13px;
+}
+
+.header , .main{
+    border-bottom: solid 5px #535251;
+}
+
